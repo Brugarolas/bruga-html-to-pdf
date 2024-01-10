@@ -1,0 +1,19 @@
+{
+  "name": "bruga-html-to-pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "converter.js",
+  "scripts": {
+    "convert": "node converter_parallel.js"
+  },
+  "keywords": [],
+  "author": "Andrés Brugarolas Martínez <brugarolas.92@gmail.com> (https://www.andres-brugarolas.com)",
+  "license": "PROSL",
+  "gitRepo": "https://www.github.com/brugarolas/",
+  "dependencies": {
+    "node-base64-image": "^2.0.6",
+    "pdf-lib": "^1.17.1",
+    "piscina": "^4.2.1",
+    "puppeteer": "^21.7.0"
+  }
+}

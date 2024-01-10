@@ -1,0 +1,35 @@
+@-moz-document domain("neovim.io") {
+  body {
+    padding: 20px;
+  }
+
+  .container {
+      .navbar {
+          #docsearch {
+              display: none;
+          }
+      }
+  }
+  .container.golden-grid.help-body {
+      .col-narrow.toc {
+          display: none;
+      }
+  }
+}
+
+body {
+  padding: 20px;
+}
+
+.container {
+  .navbar {
+      #docsearch {
+          display: none;
+      }
+  }
+}
+.container.golden-grid.help-body {
+  .col-narrow.toc {
+      display: none;
+  }
+}
