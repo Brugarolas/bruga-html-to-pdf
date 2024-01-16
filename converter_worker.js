@@ -1,8 +1,8 @@
 const { parentPort } = require('piscina');
 const fs = require('fs');
 
-
-async function applyCSSAndConvertToPDF(browser, link, cssPath, pageIndex) {
+async function applyCSSAndConvertToPDF(link, cssPath, pageIndex) {
+  const browser = await puppeteer.launch({ headless: 'new' });
   const page = await browser.newPage();
   await page.goto(link, { waitUntil: 'networkidle0' });
 
@@ -24,11 +24,12 @@ async function applyCSSAndConvertToPDF(browser, link, cssPath, pageIndex) {
   const pdfName = `./docs/page_${pageIndex}.pdf`;
   fs.writeFileSync(pdfName, pdf);
   await page.close();
+  await browser.close();
   return pdfName;
 }
 
-parentPort.on('message', async ({ browser, link, cssPath, pageIndex }) => {
-    const pdfFilename = await applyCSSAndConvertToPDF(browser, link, cssPath, pageIndex);
+parentPort.on('message', async ({ link, cssPath, pageIndex }) => {
+    const pdfFilename = await applyCSSAndConvertToPDF(link, cssPath, pageIndex);
 
     parentPort.postMessage(pdfFilename);
 });

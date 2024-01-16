@@ -1,4 +1,6 @@
+#include <napi.h>
 #include "node_shared_memory.hpp"
+#include "concurrent_hash_map.hpp"
 
 Napi::FunctionReference NodeSharedMemory::constructor;
 
@@ -59,8 +61,6 @@ Napi::Value NodeSharedMemory::Remove(const Napi::CallbackInfo& info) {
 
     return Napi::Value();
 }
-
-// ... remaining class implementation ...
 
 Napi::Object NodeSharedMemory::Init(Napi::Env env, Napi::Object exports) {
     Napi::HandleScope scope(env);

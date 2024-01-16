@@ -4,15 +4,32 @@
   "description": "",
   "main": "converter.js",
   "scripts": {
-    "convert": "node converter_parallel.js"
+    "convert": "node converter.js",
+    "addon:configure": "node-gyp configure",
+    "addon:build": "node-gyp build"
   },
-  "keywords": [],
-  "author": "Andrés Brugarolas Martínez <brugarolas.92@gmail.com> (https://www.andres-brugarolas.com)",
+  "keywords": [
+    "html",
+    "pdf",
+    "converter",
+    "documentation",
+    "piscina",
+    "puppeteer",
+    "pdf-lib"
+  ],
+  "author": "Andrés Brugarolas Martínez",
   "license": "PROSL",
   "gitRepo": "https://www.github.com/brugarolas/",
+  "type": "module",
   "dependencies": {
+    "node-addon-api": "^7.0.0",
     "node-base64-image": "^2.0.6",
+    "terminal-kit": "^3.0.1",
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "ora": "^8.0.1",
     "pdf-lib": "^1.17.1",
+    "color-blend": "4.0.0",
     "piscina": "^4.2.1",
     "puppeteer": "^21.7.0"
   }

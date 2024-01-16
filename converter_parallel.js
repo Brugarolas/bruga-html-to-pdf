@@ -68,7 +68,7 @@ async function mergePDFs(filePaths, outputFilePath) {
 
   // Processing the rest of the pages
   const createPdfsPromises = links.map((link, index) =>
-    piscina.run({ browser, link, cssPath: './config/print_style.css', pageIndex: i + index + 2 })
+    piscina.run({ link, cssPath: './config/print_style.css', pageIndex: i + index + 2 })
   );
 
   // Wait for all the promises to be resolved

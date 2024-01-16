@@ -6,11 +6,11 @@ All Rights Reserved
 
 YOU ARE FREE TO USE THIS LICENSE IN ANY OF YOUR PROJECTS
 
-Project name: Generic Template (the "Software")
+Project name: Bruga's HTML to PDF (the "Software")
 Author: Andrés Brugarolas Martínez (the "Author")
 Email: brugarolas.92@gmail.com
 Webpage: https://www.andres-brugarolas.com/
-Repository: Somewhere on https://www.github.com/Brugarolas/ or https://gist.github.com/Brugarolas
+Repository: https://www.github.com/Brugarolas/bruga-html-to-pdf
 
 INTRODUCTION:
 Below is the Progressive Restrictive Open Source License (PROSL), crafted to reflect the values and
@@ -34,7 +34,7 @@ harashed by local extremist groups, paramilitary organizations, the armed forces
 
 The Author; a Spanish guy in his early-30s who has been spent an immeasurable ammount of money on lawyers, who has been
 assaulted by police officers multiple times, who has been detained for days in countless occassions, who has been prosecuted several
-times and who might go to jail because of his activism (apparently defending that everybody deserves a place to live is a dangerous
+times and who has faced the possibility of going to jail because of his activism a couple of times (apparently defending that everybody deserves a place to live is a dangerous
 ideology that society should fight against); strongly believes that the same principle can be applied to... well, universally.
 Just because you don't consider that mixing software licensing with values is a good idea or don't like my progressive values,
 does not make me a "radical" and does not make you neutral: you just happen to have the same values/ideas/ideology than the majority.
@@ -49,7 +49,7 @@ express myself in an understandable way, feel free to contact me.
 Oh, and if your company is looking for new people to hire, I'm open to new opportunities. Even if I'm openly left-winged, I'm a good
 professional and a good developer. And remote working and my lack of social skills in English will make it impossible that
 I try to convince your employees to join a workers' union. And the fact that I'm openly left-winged may even play in your favor,
-because the more diverse the team is, the less bias the software will have. Particularly in the AI development. I worked at a b
+because the more diverse the team is, the less bias the software will have. Particularly in the AI development.
 
 SUMMARY:
 This license allows individuals and organizations that align with progressive values to freely use, modify,
@@ -77,7 +77,9 @@ the express consent of the original Author, who might ask for a compensation in 
 
 The Author is well aware that the last sentence may sound a bit controversial, however, he wants you to know that
 he is a reasonable person and wants to remind you that commercial activities are not prohibited: you just have to ask him
-for consent. The compensations the Author may ask you in return are not necessarily monetary ones, but to collaborate
+for consent. In fact, the Author consider that the development of economy, wether by public or private initiatives,
+is a good thing, so he/she would be happy to know that his/her software helps your company.
+The compensations the Author may ask you in return are not necessarily monetary ones, but to collaborate
 together in the development of this Software or other software, free use or your software-as-a-service, promotion of his
 Software in your platforms, granting free access to source code of some of your software, or most likely nothing at all.
 
@@ -122,18 +124,32 @@ Any kind of organization dedicated to drug, human or weapon trafficking, even if
 
 Any entity that promotes hate, discrimination, misinformation or any form of violence against individuals based on race, gender,
 sexual orientation, or any other discriminatory grounds. Except those clearly aligned with anti-repressive or anti-fascist values.
-The Author does not consider that publicly denouncing police brutality or the injustices of different global penal systems constitute
+The Author does not consider that publicly denouncing police brutality or the injustices of the differents global penal systems constitute
 any kind of discrimination against cops or judges. And about anti-fascist values: the Author wants to quote the "Paradox of tolerance":
 any society that wants to be effectively tolerant, must not tolerate any kind of anti-tolerance behaviour. Fighting against fascism
-should be a major priority for all individuals who believe all humans deserve the same human rights.
+should be a major priority for all individuals who believe all humans deserve the same human rights. That's not just rhetoric to the Author,
+this license is prove of that.
 
 Racist, fascist, misogynist, nationalist, anti-communist or right-wing extremist individuals, groups, communities, parties, organizations
 or media, even if they don't explicitly promote hate, discrimination, misinformation or any kind of violence against any individuals.
 
-The Author is aware that the last sentence is a bit vague and open to interpretation, however, if you felt uncomfortable or felt referented
-while reading it, there is a high change that you are part of the list and you should reconsider your values. If you don't like my progressive
-values just don't hire me in your company nor use my software: there are plenty of Open Source "yes-you-can-use-our-software-to-sell-crack-online"
-(as long as you credit them) projects available on the Internet, and probably with a higher quality or more feature-complete than mine.
+The Author is aware that the last sentence is a bit vague and open to interpretation, however, if you felt uncomfortable or felt referenced
+while reading it, there is a high change that you are part of the list and you should reconsider your values. If you are "not sexist, but..."
+or you are "not racist, but...", there is a really high chance you are blacklisted. Nothing good will come out of your mouth after the "but",
+and starting an argument with "I am not racist" is already a red flag: people who are not racist usually don't have to remind others that they
+are not racists. The Author doesn't need to tell anybody that he/she's not a 80-year-old lady because he/she doesn't look like an 80-year-old lady.
+As a software developer, the Author is not particularly a fan of duck typing (he's more a Liskov Substition Principle person). You know, the
+application of the "duck test" abductive reasoning to [computer science] objects: "If it looks like a duck, swims like a duck, and quacks like
+a duck: then it must be a duck". So if you need to remind someone that you are not a racist, and genuinely don't consider yourself racist...
+The Author has bad news for you. And he thinks that Barbara Liskov would agree with him/her on that. The Author is not an simple abductive
+heuristics person, but he has to admit that Okham's razor is very useful for detecting "naive bigotries". Good news is that it's never late for
+a change. First step is to learn some logical reasoning and real statistics and always remember that correlation does not imply causation before
+quoting that statistic about crime segmented by skin color. Yeah, he/she knows you have done it. The Author can play the statistics game too: for
+example, how many people living paycheck to paycheck do commit tax fraud? Or Google how many blue lives abuse their wives. You are not going
+to like it. The Author is sorry if you feel discriminated. He/she's flexible enough to adapt to the rules when he/she's coding for others. But this
+time, the Author is coding for free and for himself/herself, so he/she is making the rules now. If you don't like his/her progressive values just
+don't hire him/her in your company nor use his/her software: there are plenty of Open Source "yes-you-can-use-our-software-to-sell-crack-online"
+(as long as you credit them) projects available on the Internet, and probably with a higher quality or more feature-complete than his'/her's. After all, this is his/her software, and as spanish people say: "Esta es mi licencia y me la follo cuando quiera" (please, don't translate that).
 
 4. Redistribution:
 Redistribution is allowed under open-source licenses that allow dual-licensing and which do not conflict with the terms of this License.

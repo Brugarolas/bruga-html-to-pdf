@@ -1,6 +1,6 @@
 @-moz-document domain("neovim.io") {
   body {
-    padding: 20px;
+    padding: 80px 25px;
   }
 
   .container {
@@ -18,7 +18,7 @@
 }
 
 body {
-  padding: 20px;
+  padding: 80px 25px;
 }
 
 .container {
